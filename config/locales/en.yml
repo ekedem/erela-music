@@ -22,4 +22,6 @@
 en:
   hello: "Hello world"
   songs:
-    kochav: "כוכב קטן"
+    kochav1: "כוכב קטן"
+    kochav2: "כוכב קטן (גרסא שניה)"
+    hayom: "היום אקום מוקדם"

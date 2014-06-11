@@ -7,9 +7,24 @@ class ApplicationController < ActionController::Base
 
   def songs_data
     songs = [
+      {
       image: 6,
-      url: "kochav",
-      music: "kochav_rough.mp3"
+      url: "kochav1",
+      music: "kochav1_rough.mp3",
+      partial: "kochav"
+      },
+      {
+      image: 6,
+      url: "kochav2",
+      music: "kochav2_rough.mp3",
+      partial: "kochav"
+      },
+      {
+      image: 1,
+      url: "hayom",
+      music: "hayom_rough.mp3",
+      partial: "hayom"
+      }
     ]
   end
 end

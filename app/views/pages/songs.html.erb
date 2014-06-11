@@ -9,11 +9,11 @@
     <div class="song-holder">
       <a href="/song/<%=song[:url]%>">
         <div class="row">
-          <div class="col-md-2 pull-right">
+          <div class="col-md-3 pull-right">
             <span class="title"><%= t("songs.#{song[:url]}")%><span>
           </div>
           <div class="col-md-2 pull-right">
-            <img width="200px" src="https://s3.amazonaws.com/jazz_prod/erela/music/<%=song[:image]%>.jpg"/>
+            <img height="120px" src="https://s3.amazonaws.com/jazz_prod/erela/music/<%=song[:image]%>.jpg"/>
           </div>
         </div>
       </a>
