@@ -14,8 +14,10 @@
     
     <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class=""><a href="#"><span class="fa fa-home"></span> השירים</a></li>
-        <li class="active"><a href="#"><span class="fa fa-home"></span> דף הבית</a></li>
+         <li class="<%= 'active' if current_page?(erela_path) %>"><a href="<%= erela_path %>"><span class="fa fa-pencil"></span> על המחברת</a></li>
+        <li class="<%= 'active' if current_page?(songs_path) %>"><a href="<%= songs_path %>"><span class="fa fa-music"></span> השירים</a></li>
+        <li class="<%= 'active' if current_page?(root_path) %>"><a href="<%= root_path %>"><span class="fa fa-home"></span> דף הבית</a></li>
+        <li class=""><a href="#">אראלה קדם - שירים מהשרוול</a></li>
 
       </ul>
     </div>
@@ -23,6 +25,9 @@
   </div>
   <div class="content-container">
     <%= yield %>
+  </div>
+  <div class="footer-container">
+
   </div>
 
   <%= yield :javascript %>
