@@ -11,15 +11,36 @@
  * file per style scope.
  *
  *= require_tree .
+ *= require font-awesome
  *= require_self
  */
 
+
 @import "bootstrap";
+@import "united";
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Alef Hebrew",
+               “Helvetica Neue”,
+               Helvetica,
+               Arial,
+               sans-serif;
+  direction: rtl;
+
 }
 
 .carousel-control.left, .carousel-control.right {
     background-image: none
+}
+
+.title-header {
+  text-align: center;
+}
+
+.carousel-holder {
+  width:600px;
+  margin: 0 auto;
+  float: none;
 }

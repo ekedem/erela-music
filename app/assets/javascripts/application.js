@@ -19,7 +19,7 @@
 $(document).ready(function() {
   $('.carousel').carousel({
   //options here
-    //interval: 4000
+    interval: 4000
   });
 });
 
