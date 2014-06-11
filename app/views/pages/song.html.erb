@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="row">
+    
+
+    <audio controls>
+      <source src="https://s3.amazonaws.com/jazz_prod/erela/music/songs/<%=@song[:music]%>" type="audio/mpeg" />
+      <a href="https://s3.amazonaws.com/jazz_prod/erela/music/songs/<%=@song[:music]%>"><%= t("songs.#{@song[:url]}")%></a>
+    </audio>
+  </div>
+  <div class="row lyrics">
+    <h3><%= t("songs.#{@song[:url]}")%></h3>
+    <small>מילים ולחן: אראלה קדם</small>
+    <p>
+      כוכב קטן טייל לו בשמיים<br/>
+      פתאום פגש כוכב קטן אחר,<br/>
+      יצאו הם יחד לטיול בשניים,<br/>
+      כמה טוב לפגוש כך בחבר.<br/>
+    </p>
+
+    <p>
+      הם שחקו במחבואים בין העננים,<br/>
+      הם רצו בתופסת, בין צבעי הקשת,<br/>
+      וכשהתעייפו - חזרו בלב שמח,<br/>
+      לנוח בחיקו של דוד ירח.<br/>
+    </p>
+  </div>
+</div>

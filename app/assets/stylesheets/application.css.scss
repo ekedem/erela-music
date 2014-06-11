@@ -29,6 +29,16 @@ body {
                sans-serif;
   direction: rtl;
 
+  background: url(/assets/spring.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+nav {
+  font-size: 20px;
 }
 
 .carousel-control.left, .carousel-control.right {
@@ -48,5 +58,11 @@ body {
 .song-holder {
   .title {
     font-size:26px;
+  }
+}
+
+.lyrics {
+  p {
+    font-size: 20px;
   }
 }
