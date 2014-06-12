@@ -2,36 +2,7 @@
   
   <div class="row">
 
-    <div class="carousel-holder">
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-          <% [1,2,3,4,5,6,7,8,9,10,11].each do |i| %>
-            <div class="item <%= "active" if i == 1 %>">
-              <img src="https://s3.amazonaws.com/jazz_prod/erela/music/<%= i %>.jpg">
-              <div class="container">
-                
-              </div>
-            </div>
-          <% end %>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-         
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-          
-        </a>
-      </div>
-    </div>
+    <img src="https://s3.amazonaws.com/jazz_prod/erela/music/cover.jpg"/>
 
   </div>
 </div>
