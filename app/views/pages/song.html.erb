@@ -10,6 +10,6 @@
   <div class="row lyrics">
     <h3><%= t("songs.#{@song[:url]}")%></h3>
     <small>מילים ולחן: אראלה קדם</small>
-    <%= render :partial => @song[:url]%>
+    <%= render :partial => @song[:partial]%>
   </div>
 </div>

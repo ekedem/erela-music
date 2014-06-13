@@ -10,21 +10,10 @@ class ApplicationController < ActionController::Base
       {
       image: 6,
       url: "kochav1",
-      music: "kochav1_rough.mp3",
+      music: "kochav_v2_arr_rough_1.mp3",
       partial: "kochav"
-      },
-      {
-      image: 6,
-      url: "kochav2",
-      music: "kochav2_rough.mp3",
-      partial: "kochav"
-      },
-      {
-      image: 1,
-      url: "hayom",
-      music: "hayom_rough.mp3",
-      partial: "hayom"
       }
+      
     ]
   end
 end
